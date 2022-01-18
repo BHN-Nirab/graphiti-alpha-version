@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const http = require('http')
 
-const port = process.env.port || 9090
+const port = process.env.PORT
 const app = express()
 
 app.use(express.static('public'))
